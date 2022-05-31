@@ -60,12 +60,17 @@ body {
 
 #showcase .btn {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 1.5rem;
     background-color: var(--secondary-color);
-    padding: 10px 25px;
+    padding: .75rem 1.7rem;
     border-radius: 5px;
-    text-decoration: underline;
+    text-decoration: none;
     color: #fff;
     border: none;
-    font-size: 20px;
+    font-size: 1.3rem;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#showcase .btn:hover {
+    opacity: .8;
 }
